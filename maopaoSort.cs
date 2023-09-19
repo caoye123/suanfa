@@ -1,6 +1,6 @@
 ﻿//
 
-int[] array = {232,22,5,9,1,7,3};
+int[] array = {232,22,5,9,1,7,3,0};
 BSort(array);
 foreach (int i in array)
 {
