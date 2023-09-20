@@ -1,20 +1,22 @@
 ﻿//
-
-int[] array = {232,22,5,9,1,7,3,0};
+/*
+int[] array = { 232, 22, 5, 9, 1, 7, 3, 0 };
 BSort(array);
 foreach (int i in array)
 {
-    Console.Write(i+" ");
+    Console.Write(i + " ");
 }
 
-static void BSort(int[] array) {
+static void BSort(int[] array)
+{
     var length = array.Length;
-    for (int i = 0; i < length - 1; i++) {
+    for (; length > 0; --length)
+    {
         bool swap = false;
         int temp = 0;
-        for (int j = 0; j < length - i - 1; j++)
+        for (int j = 0; j < length - 1; j++)
         {
-            if(array[j] > array[j + 1])
+            if (array[j] > array[j + 1])
             {
                 temp = array[j];
                 array[j] = array[j + 1];
@@ -27,4 +29,4 @@ static void BSort(int[] array) {
             break;
         }
     }
-}
+}*/
