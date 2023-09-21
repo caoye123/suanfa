@@ -1,4 +1,4 @@
-﻿//
+﻿/*//
 
 int[] array = new int[] {12,243,45,67,12,3,99 };
 
@@ -26,5 +26,5 @@ static void SelectSort(int[] array)
         array[i] = array[min];
         array[min] = temp;
     }
-}
+}*/
 
